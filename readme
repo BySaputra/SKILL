@@ -1,0 +1,270 @@
+# CASTLE Conference Website
+
+Modern academic conference website for **CASTLE 6.0** — Conference on Social, Science, Technology, Language, and Education Research.
+
+Designed with a clean editorial aesthetic, responsive user experience, and publication-oriented conference identity.
+
+---
+
+# Overview
+
+CASTLE is an international academic conference platform organized to support interdisciplinary collaboration, scholarly discussion, and research publication across various academic fields.
+
+This website was redesigned from the original EXPO structure into a modern symposium-style conference platform focused on:
+
+* clean UI/UX
+* responsive design
+* academic branding
+* publication pathways
+* professional conference presentation
+* premium minimalist aesthetic
+
+---
+
+# Main Features
+
+## Hero Section
+
+* Modern split-layout hero
+* Responsive image slider
+* Conference branding
+* Call-to-action buttons
+* Dynamic responsive typography
+
+## Conference Overview
+
+* Academic conference introduction
+* Research areas showcase
+* Conference theme section
+* Editorial typography layout
+
+## Conference Details
+
+* Official conference schedule
+* Date, time, venue, and agenda information
+* Responsive information panel
+
+## Publication Opportunities
+
+* Risenologi Journal
+* Journal of Castle (JoC)
+* Proceedings of Castle (PoC)
+* Publication pathway showcase
+
+## Keynote Speakers
+
+* International speaker profiles
+* Responsive speaker cards
+* Academic institution showcase
+
+## Conference Timeline
+
+* Important conference milestones
+* Submission schedule
+* Editorial-style timeline cards
+
+## Publication Fee
+
+* Responsive publication fee table
+* Clean academic pricing structure
+* Mobile-friendly layout
+
+## Bilingual Support
+
+* English ↔ Indonesian language toggle
+* Dynamic content switching
+* Responsive multilingual experience
+
+## Responsive Design
+
+Optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile devices
+
+---
+
+# Technology Stack
+
+The website is built using:
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+
+No external frontend frameworks are used.
+
+---
+
+# Design Direction
+
+The website follows a:
+
+* clean academic conference aesthetic
+* modern editorial UI approach
+* publication-oriented hierarchy
+* minimalist international symposium style
+
+Color palette:
+
+* Navy Blue
+* Soft Blue
+* White
+* Light Gray
+
+Typography:
+
+* Inter
+* Orbitron
+
+---
+
+# Project Structure
+
+```bash
+CASTLE/
+├── index.html
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       ├── CASTLE.png
+│       ├── pic 1.JPG
+│       ├── pic 2.JPG
+│       ├── pic 3.JPG
+│       ├── flyer.jpeg
+│       ├── risenologi.png
+│       ├── joc.png
+│       ├── poc.png
+│       ├── orang1.jpg
+│       ├── orang2.jpg
+│       └── orang3.jpg
+└── README.md
+```
+
+---
+
+# Current Website Sections
+
+1. Hero
+2. Conference Overview
+3. Conference Details
+4. Publication Opportunities
+5. Keynote Speakers
+6. Conference Timeline
+7. Publication Fee
+8. Footer
+
+---
+
+# UI/UX Principles
+
+The redesign focuses on:
+
+* premium whitespace
+* elegant hierarchy
+* subtle interactions
+* responsive readability
+* lightweight performance
+* academic professionalism
+* clean visual rhythm
+
+---
+
+# Performance Optimization
+
+The codebase has been optimized through:
+
+* removal of unused CSS
+* duplicate code cleanup
+* responsive optimization
+* lightweight JavaScript structure
+* organized component hierarchy
+
+CSS size was reduced significantly while preserving the full visual design.
+
+---
+
+# Responsive Breakpoints
+
+```css
+@media (max-width: 1024px)
+@media (max-width: 768px)
+@media (max-width: 480px)
+```
+
+---
+
+# Conference Information
+
+## Conference Name
+
+CASTLE 6.0
+
+## Full Name
+
+Conference on Social, Science, Technology, Language, and Education Research
+
+## Venue
+
+Online via Zoom Workplace
+
+## Conference Date
+
+Saturday, 1 August 2026
+
+---
+
+# Contact Information
+
+Email:
+[castle@unj.ac.id](mailto:castle@unj.ac.id)
+
+Instagram:
+@expokpm
+
+Contact Person:
+
+* +62 858-1472-8638 (Fathya)
+* +62 858-1068-0619 (Zikri)
+
+---
+
+# License
+
+This project uses the MIT License.
+
+Additional conference branding assets, logos, posters, and official publication materials remain the intellectual property of the CASTLE Conference organizing committee.
+
+---
+
+# Development Notes
+
+Recommended future improvements:
+
+* FAQ section
+* Registration section
+* Partner showcase
+* Accessibility improvements
+* WebP image optimization
+* SEO enhancement
+* Progressive Web App support
+
+---
+
+# Credits
+
+Developed and redesigned for CASTLE Conference 6.0.
+
+Focused on creating a modern, trustworthy, and publication-oriented academic conference platform.
+
+## Developer
+
+Website designed and developed by Bayu Saputra.
+
+Frontend development, UI/UX redesign, responsive implementation, and conference website optimization by Bayu Saputra, Electronics Engineering Education Faculty of Engineering 2024.
+
