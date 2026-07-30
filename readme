@@ -113,6 +113,7 @@ Design principles:
 ```bash
 SKILL/
 ├── index.html
+├── histori.html
 ├── assets/
 │   ├── css/
 │   │   └── style.css

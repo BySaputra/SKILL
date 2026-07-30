@@ -1,0 +1,185 @@
+/* ============================================================
+   SKILL History Page
+   Page-specific styles for histori.html
+   ============================================================ */
+
+.history-archive {
+  padding: calc(var(--space-4xl) + 2rem) 0 var(--space-4xl);
+  background: #fff;
+}
+
+.history-archive .section-header {
+  max-width: 780px;
+  margin-inline: auto;
+  margin-bottom: var(--space-4xl);
+}
+
+.history-archive .section-title {
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+}
+
+.history-year-block {
+  padding: var(--space-4xl) 0;
+  border-top: 1px solid rgba(31, 78, 163, 0.08);
+}
+
+.history-year-block:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.history-year-header {
+  margin-bottom: var(--space-3xl);
+}
+
+.history-year-title {
+  color: #142f55;
+  font-size: clamp(3rem, 8vw, 6.2rem);
+  font-weight: 850;
+  line-height: 1;
+  letter-spacing: 0;
+  margin-bottom: 1.25rem;
+}
+
+.history-year-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(31, 78, 163, 0.42), rgba(31, 78, 163, 0.08), transparent);
+}
+
+.archive-subsection {
+  margin-top: var(--space-3xl);
+}
+
+.archive-subsection:first-of-type {
+  margin-top: 0;
+}
+
+.archive-subsection-title {
+  margin-bottom: var(--space-xl);
+}
+
+.archive-subsection-title .section-tag {
+  margin-bottom: 0.8rem;
+}
+
+.archive-subsection-title h3 {
+  color: var(--clr-text-primary);
+  font-size: clamp(1.55rem, 2.5vw, 2.2rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.archive-research .publication-card,
+.archive-speakers .speaker-card,
+.archive-gallery-item {
+  height: 100%;
+}
+
+.archive-research .publication-body {
+  text-align: left;
+}
+
+.archive-research .publication-body h3 {
+  text-align: left;
+}
+
+.archive-research .publication-meta {
+  margin: auto 0 0;
+  color: #55729f;
+  font-size: var(--fs-sm);
+  font-weight: 650;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.archive-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-lg);
+}
+
+.archive-gallery-item {
+  min-height: 240px;
+  overflow: hidden;
+  background: #f8fafc;
+  border: 1px solid rgba(31, 78, 163, 0.1);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+}
+
+.archive-gallery-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(31, 78, 163, 0.2);
+  box-shadow: 0 16px 34px rgba(15, 47, 95, 0.08);
+}
+
+.archive-gallery-item img {
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  object-fit: cover;
+}
+
+.archive-registration-anchor {
+  height: 1px;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .archive-gallery {
+    gap: var(--space-md);
+  }
+
+  .archive-gallery-item,
+  .archive-gallery-item img {
+    min-height: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+  .history-archive {
+    padding-top: calc(var(--space-4xl) + 1rem);
+  }
+
+  .history-archive .section-header {
+    margin-bottom: var(--space-3xl);
+  }
+
+  .history-year-block {
+    padding: var(--space-3xl) 0;
+  }
+
+  .history-year-header,
+  .archive-subsection {
+    margin-top: 0;
+    margin-bottom: var(--space-2xl);
+  }
+
+  .archive-subsection {
+    margin-top: var(--space-2xl);
+  }
+
+  .archive-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-gallery-item,
+  .archive-gallery-item img {
+    min-height: 230px;
+  }
+}
+
+@media (max-width: 480px) {
+  .archive-gallery,
+  .speakers-grid,
+  .publication-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-gallery-item,
+  .archive-gallery-item img {
+    min-height: 210px;
+  }
+}
