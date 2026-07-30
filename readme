@@ -1,23 +1,16 @@
-# CASTLE Conference Website
+# SKILL 2026 Website
 
-Modern academic conference website for **CASTLE 6.0** — Conference on Social, Science, Technology, Language, and Education Research.
+Official website for **Seminar Keilmiahan dan Hasil Penelitian (SKILL) 2026** organized by Kelompok Peneliti Muda (KPM), Universitas Negeri Jakarta.
 
-Designed with a clean editorial aesthetic, responsive user experience, and publication-oriented conference identity.
+Designed with a modern, clean, and responsive interface to provide information about the event, featured research, keynote speakers, and registration.
 
 ---
 
 # Overview
 
-CASTLE is an international academic conference platform organized to support interdisciplinary collaboration, scholarly discussion, and research publication across various academic fields.
+Seminar Keilmiahan dan Hasil Penelitian (SKILL) is an annual event that combines scientific seminars, research exhibitions, and appreciation for outstanding research works. The event involves university students and the general public with the aim of promoting research culture and showcasing innovative works produced by members of Kelompok Peneliti Muda Universitas Negeri Jakarta.
 
-This website was redesigned from the original EXPO structure into a modern symposium-style conference platform focused on:
-
-* clean UI/UX
-* responsive design
-* academic branding
-* publication pathways
-* professional conference presentation
-* premium minimalist aesthetic
+The website serves as the primary information platform for participants, presenters, and visitors.
 
 ---
 
@@ -25,106 +18,100 @@ This website was redesigned from the original EXPO structure into a modern sympo
 
 ## Hero Section
 
-* Modern split-layout hero
-* Responsive image slider
-* Conference branding
-* Call-to-action buttons
-* Dynamic responsive typography
+- Modern landing page
+- Responsive image slider
+- Event branding
+- Registration call-to-action
+- Responsive typography
 
-## Conference Overview
+## About SKILL
 
-* Academic conference introduction
-* Research areas showcase
-* Conference theme section
-* Editorial typography layout
+- Introduction to SKILL
+- Event objectives
+- Program overview
+- Event statistics
 
-## Conference Details
+## Program SKILL
 
-* Official conference schedule
-* Date, time, venue, and agenda information
-* Responsive information panel
+- SAINTEK (Science & Technology)
+- SOSHUM (Social & Humanities)
 
-## Publication Opportunities
+## Featured Research Showcase
 
-* Risenologi Journal
-* Journal of Castle (JoC)
-* Proceedings of Castle (PoC)
-* Publication pathway showcase
+- Four selected research projects
+- Research title
+- Category
+- Author information
+- Featured exhibition preview
+
+## Event Information
+
+- Event date
+- Time
+- Venue
 
 ## Keynote Speakers
 
-* International speaker profiles
-* Responsive speaker cards
-* Academic institution showcase
+- Speaker profiles
+- Institution
+- Area of expertise
 
-## Conference Timeline
+## Timeline
 
-* Important conference milestones
-* Submission schedule
-* Editorial-style timeline cards
+- Open Registration
+- Close Registration
+- Presentation Day
 
-## Publication Fee
+## Registration
 
-* Responsive publication fee table
-* Clean academic pricing structure
-* Mobile-friendly layout
+- Registration information
+- Requirements
+- Registration button
 
-## Bilingual Support
+## Gallery
 
-* English ↔ Indonesian language toggle
-* Dynamic content switching
-* Responsive multilingual experience
+- Documentation gallery
+- Responsive bento layout
 
-## Responsive Design
+## History
 
-Optimized for:
-
-* Desktop
-* Laptop
-* Tablet
-* Mobile devices
+- Previous SKILL events
+- Documentation
+- Themes
+- Annual highlights
 
 ---
 
 # Technology Stack
 
-The website is built using:
+This website is built using:
 
-* HTML5
-* CSS3
-* Vanilla JavaScript
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
-No external frontend frameworks are used.
+No external frontend framework is used.
 
 ---
 
 # Design Direction
 
-The website follows a:
+The website adopts a modern event and exhibition style with emphasis on readability and visual hierarchy.
 
-* clean academic conference aesthetic
-* modern editorial UI approach
-* publication-oriented hierarchy
-* minimalist international symposium style
+Design principles:
 
-Color palette:
-
-* Navy Blue
-* Soft Blue
-* White
-* Light Gray
-
-Typography:
-
-* Inter
-* Orbitron
+- Clean layout
+- Responsive design
+- Minimalist interface
+- Smooth interaction
+- Professional academic branding
 
 ---
 
 # Project Structure
 
 ```bash
-CASTLE/
+SKILL/
 ├── index.html
 ├── assets/
 │   ├── css/
@@ -132,139 +119,73 @@ CASTLE/
 │   ├── js/
 │   │   └── main.js
 │   └── images/
-│       ├── CASTLE.png
-│       ├── pic 1.JPG
-│       ├── pic 2.JPG
-│       ├── pic 3.JPG
-│       ├── flyer.jpeg
-│       ├── risenologi.png
-│       ├── joc.png
-│       ├── poc.png
-│       ├── orang1.jpg
-│       ├── orang2.jpg
-│       └── orang3.jpg
 └── README.md
 ```
 
 ---
 
-# Current Website Sections
+# Website Structure
 
 1. Hero
-2. Conference Overview
-3. Conference Details
-4. Publication Opportunities
+2. About SKILL
+3. Featured Research Showcase
+4. Event Information
 5. Keynote Speakers
-6. Conference Timeline
-7. Publication Fee
-8. Footer
+6. Timeline
+7. Registration
+8. History
+9. Footer
 
 ---
 
-# UI/UX Principles
+# Responsive Design
 
-The redesign focuses on:
+Optimized for:
 
-* premium whitespace
-* elegant hierarchy
-* subtle interactions
-* responsive readability
-* lightweight performance
-* academic professionalism
-* clean visual rhythm
+- Desktop
+- Laptop
+- Tablet
+- Mobile
 
 ---
 
-# Performance Optimization
+# Performance
 
-The codebase has been optimized through:
+The website is optimized with:
 
-* removal of unused CSS
-* duplicate code cleanup
-* responsive optimization
-* lightweight JavaScript structure
-* organized component hierarchy
-
-CSS size was reduced significantly while preserving the full visual design.
-
----
-
-# Responsive Breakpoints
-
-```css
-@media (max-width: 1024px)
-@media (max-width: 768px)
-@media (max-width: 480px)
-```
+- Responsive layout
+- Lightweight JavaScript
+- Organized CSS architecture
+- Smooth scrolling
+- Scroll animations
+- Responsive navigation
 
 ---
 
-# Conference Information
+# Contact
 
-## Conference Name
+Kelompok Peneliti Muda (KPM)
 
-CASTLE 6.0
-
-## Full Name
-
-Conference on Social, Science, Technology, Language, and Education Research
-
-## Venue
-
-Online via Zoom Workplace
-
-## Conference Date
-
-Saturday, 1 August 2026
-
----
-
-# Contact Information
-
-Email:
-[castle@unj.ac.id](mailto:castle@unj.ac.id)
+Universitas Negeri Jakarta
 
 Instagram:
 @expokpm
-
-Contact Person:
-
-* +62 858-1472-8638 (Fathya)
-* +62 858-1068-0619 (Zikri)
 
 ---
 
 # License
 
-This project uses the MIT License.
+This project is released under the MIT License.
 
-Additional conference branding assets, logos, posters, and official publication materials remain the intellectual property of the CASTLE Conference organizing committee.
-
----
-
-# Development Notes
-
-Recommended future improvements:
-
-* FAQ section
-* Registration section
-* Partner showcase
-* Accessibility improvements
-* WebP image optimization
-* SEO enhancement
-* Progressive Web App support
+Official logos, posters, and event materials remain the intellectual property of Kelompok Peneliti Muda Universitas Negeri Jakarta.
 
 ---
 
-# Credits
+# Developer
 
-Developed and redesigned for CASTLE Conference 6.0.
+Designed and developed by **Bayu Saputra**
 
-Focused on creating a modern, trustworthy, and publication-oriented academic conference platform.
-
-## Developer
-
-Website designed and developed by Bayu Saputra.
-
-Frontend development, UI/UX redesign, responsive implementation, and conference website optimization by Bayu Saputra, Electronics Engineering Education Faculty of Engineering 2024.
-
+Frontend Development • UI/UX Design • Responsive Web Development
+Electronics Engineering Education
+Faculty of Engineering
+Universitas Negeri Jakarta

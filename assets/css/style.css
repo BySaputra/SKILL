@@ -1349,39 +1349,6 @@ button {
   margin-top: 1.35rem;
 }
 
-/* ─────────────────────────────────────────────────────────
-   GALLERY SECTION
-   ───────────────────────────────────────────────────────── */
-.gallery-section {
-  padding: var(--space-4xl) 0;
-  background: #f8fafc;
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-}
-
-.gallery-card {
-  overflow: hidden;
-  border-radius: var(--radius-xl);
-  background: #ffffff;
-  border: 1px solid rgba(31, 78, 163, 0.08);
-  box-shadow: var(--shadow-sm);
-}
-
-.gallery-card img {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  transition: transform var(--transition-base);
-}
-
-.gallery-card:hover img {
-  transform: scale(1.03);
-}
 
 /* ─────────────────────────────────────────────────────────
    HISTORY SECTION
